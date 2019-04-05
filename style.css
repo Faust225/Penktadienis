@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'  /* Why same names???*/
+    'header header header header header header'
     'menu menu menu menu menu menu'
     'main main main main main main'
     'main2 main2 main2 main2 main2 main2'
@@ -29,14 +29,31 @@ header {
 ul li {
 	display: inline-block;
 	padding: 10px;
+
 }
+
+li:hover {
+	background: blue;
+	color: black;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+
+/* header end */
+
+/* text center start */
 
 section.text {
 	grid-area: menu;
 	margin: 2% 0;
 }
 
-/* tasks */
+
+/* font settings for tasks */
 
 h3 {
 	font-size: 25px;
@@ -44,16 +61,20 @@ h3 {
 	text-align: center;
 	margin: 1%;
 }
-/* task end */
+/* task send */
 
 .text p {
 	font-family: 'Dokdo';
 	padding: 1%;
 }
 
+/* text center end */
+
+/* logo 3 x 2 center */
+
 .cards {
  	grid-area: main;
- 		text-align: center;
+ 	text-align: center;
 }
 
 .logo {
@@ -64,6 +85,8 @@ h3 {
  	grid-area: main2;
  	text-align: center;
 }
+
+/* logo 3 x 2 end */
 
 /* Table */
 
@@ -121,10 +144,12 @@ textarea{
 	padding: 20px;
 }
 
-.hiddenElement {
+.hiddenElement textarea {
 	overflow: hidden;
 }
 /* Text area end*/
+
+/* Footer */
 
 .details{
 	grid-area: info;
@@ -144,4 +169,3 @@ textarea{
 	display: inline-block;
 }
 
-/* textarea leistu scrolinti ir neleistu */
