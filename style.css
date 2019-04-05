@@ -7,7 +7,10 @@
     'main main main main main main'
     'main2 main2 main2 main2 main2 main2'
     'tableContent tableContent tableContent tableContent tableContent tableContent'
-    'video video video video video video';
+    'video video video video video video'
+    'location location location location location location'
+    'rText rText rText rText rText rText'
+    'info info info info info info';
 }
 
 header {
@@ -99,3 +102,46 @@ td {
 	grid-area: video;
 	text-align: center;
 }
+
+.map {
+	grid-area: location;
+	text-align: center;	
+	margin: 2% 0;
+}
+
+.responsiveText {
+	grid-area: rText;
+}
+
+textarea{
+	position: absolute;
+}
+
+.area {
+	padding: 20px;
+}
+
+.hiddenElement {
+	overflow: hidden;
+}
+/* Text area end*/
+
+.details{
+	grid-area: info;
+	text-align: center;
+	display: inline-block;
+}
+
+.companyLoc {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+}
+
+.companyLoc iframe{
+	display: inline-block;
+}
+
+/* textarea leistu scrolinti ir neleistu */
