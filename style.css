@@ -132,22 +132,30 @@ td {
 	margin: 2% 0;
 }
 
+/* textarea */
+
 .responsiveText {
 	grid-area: rText;
-}
-
-textarea{
-	position: absolute;
+	margin: 2% 0;
 }
 
 .area {
-	padding: 20px;
+	padding: 10px;
+	display: inline-block;
 }
 
 .hiddenElement textarea {
 	overflow: hidden;
 }
-/* Text area end*/
+
+div.ex4 {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;
+  overflow: visible;
+}
+
+/* Textarea end*/
 
 /* Footer */
 
@@ -159,10 +167,9 @@ textarea{
 
 .companyLoc {
 	display: inline-block;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	text-align: center;
-
 }
 
 .companyLoc iframe{
